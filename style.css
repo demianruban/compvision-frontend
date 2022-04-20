@@ -14,17 +14,3 @@ body {
     background-color: #16191c;
     border: 2px solid #16191c;
 }
-
-
-.text-block {
-    background-color: #16191c;
-    border-radius: 12px;
-    padding: 1em;
-    margin: 1px;
-}
-
-.index-block{
-    background-color: #3f474f;
-    border-radius: 1em;
-}
-
