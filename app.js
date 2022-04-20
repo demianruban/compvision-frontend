@@ -19,7 +19,7 @@ function sendImg() {
 		headers: {
 			'content-type': 'application/json',
 			'X-RapidAPI-Host': 'image-labeling1.p.rapidapi.com',
-			'X-RapidAPI-Key': '1a8dcf20a0mshc5346be1d4720c5p1fb685jsnb29c9f6774e6' // paste here api key secretly
+			'X-RapidAPI-Key': `${my_api_key}` // paste here api key secretly
 		},
 		body: `{"url":"${imgUrl}"}`
 	};
