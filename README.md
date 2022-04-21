@@ -1,5 +1,5 @@
 # Computer vision frontend
-### Github Pages
+### Github Pages (doesn't work without api key)
 https://demianruban.github.io/compvision-frontend/
 ### API
 https://rapidapi.com/inferdo/api/image-labeling1/
