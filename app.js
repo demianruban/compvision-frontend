@@ -19,7 +19,7 @@ function sendImg() {
 		headers: {
 			'content-type': 'application/json',
 			'X-RapidAPI-Host': 'image-labeling1.p.rapidapi.com',
-			'X-RapidAPI-Key': `${my_api_key}` // paste here api key secretly
+			'X-RapidAPI-Key': '' // paste here api key secretly
 		},
 		body: `{"url":"${imgUrl}"}`
 	};
@@ -28,6 +28,9 @@ function sendImg() {
 	fetch('https://image-labeling1.p.rapidapi.com/img/label', options) // getting response
 	    .then(response => response.json())
 	    .then(response => {
+		while (imageInfoDiv.childNodes.length > 5) {
+		    imageInfoDiv.removeChild(imageInfoDiv.lastChild);
+		}
 		console.log(response);
 		infoHeader.textContent = "Info";
 		for (const label in response) { //enumerating (iterating through indexes)
