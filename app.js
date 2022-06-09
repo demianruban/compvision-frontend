@@ -11,7 +11,6 @@ function sendImg () {
   if (!imgUrl) { // if there is no link
     throw new Error('No URL passed')
   } else if (imgUrl.match('^(ftp|http|https)://[^ "]+$')) {
-
     const options = {
       method: 'POST',
       headers: {
