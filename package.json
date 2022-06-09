@@ -4,7 +4,9 @@
   "description": "https://demianruban.github.io/compvision-frontend/ ### API https://rapidapi.com/inferdo/api/image-labeling1/ ### Tech stacks used Bootstrap + Vanilla JS ## Early sketch ![img](sketch.png)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "npx standard"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,12 @@
   },
   "homepage": "https://github.com/demianruban/compvision-frontend#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "image-labeler": "^0.2.0"
   },
   "devDependencies": {
+    "nodemon": "^2.0.16",
     "standard": "^17.0.0"
   }
 }
