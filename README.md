@@ -1,9 +1,10 @@
 # Computer vision frontend
 
-Link to the website: 
-
 ### How to run
 ```
+git clone https://github.com/demianruban/compvision-frontend
+cd compvision-frontend
+git switch node
 npm install
 npm run start
 ```
