@@ -1,3 +1,5 @@
+import * as bootstrap from 'bootstrap'
+
 const button = document.getElementById('submit-button')
 button.onclick = sendImg
 
