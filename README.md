@@ -9,8 +9,10 @@ npm run dev
 
 This will start a development server on localhost:1234
 
-### Tech stack
-Bootstrap + Node.js
+### Technologies used
+- Bootstrap
+- NPM
+- Parcel
 <hr>
 
 ## Screenshot
