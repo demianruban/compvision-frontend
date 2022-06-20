@@ -4,6 +4,7 @@
   "description": "https://demianruban.github.io/compvision-frontend/ ### API https://rapidapi.com/inferdo/api/image-labeling1/ ### Tech stacks used Bootstrap + Vanilla JS ## Early sketch ![img](sketch.png)",
   "scripts": {
     "test": "npx standard",
+    "dev": "npx parcel ./src/*.html",
     "build": "npx parcel build --public-url /compvision/ ./src/*.html"
   },
   "repository": {
@@ -19,13 +20,13 @@
   "homepage": "https://github.com/demianruban/compvision-frontend#readme",
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "gh-pages": "^4.0.0",
     "image-labeler": "^0.2.0",
     "parcel": "^2.6.1"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.6.1",
     "@parcel/transformer-webmanifest": "^2.6.1",
+    "gh-pages": "^4.0.0",
     "standard": "^17.0.0"
   }
 }
