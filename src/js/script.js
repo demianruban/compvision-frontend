@@ -1,3 +1,5 @@
+import * as bootstrap from 'bootstrap'
+
 const button = document.getElementById('submit-button')
 button.onclick = sendImg
 
@@ -11,7 +13,6 @@ function sendImg () {
   if (!imgUrl) { // if there is no link
     throw new Error('No URL passed')
   } else if (imgUrl.match('^(ftp|http|https)://[^ "]+$')) {
-
     const options = {
       method: 'POST',
       headers: {
@@ -22,7 +23,6 @@ function sendImg () {
       body: `{'url':'${imgUrl}'}`
     }
 
-    console.log('Sending imgUrl and getting response...')
     fetch('https://image-labeling1.p.rapidapi.com/img/label', options) // getting response
       .then(response => response.json())
       .then(processResponse)

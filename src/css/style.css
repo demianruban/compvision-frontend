@@ -1,3 +1,5 @@
+@import 'npm:bootstrap/dist/css/bootstrap.css';
+
 body {
     background-color: #3f474f;
 }

@@ -1,9 +1,19 @@
 # Computer vision frontend
-### Github Pages (doesn't work without api key)
-https://demianruban.github.io/compvision-frontend/
-### API
-https://rapidapi.com/inferdo/api/image-labeling1/
-### Tech stacks used
-Bootstrap + Vanilla JS
-## Early sketch
-![img](sketch.png)
+
+### How to run
+```
+git clone https://github.com/demianruban/compvision-frontend
+cd compvision-frontend
+npm run dev
+```
+
+This will start a development server on localhost:1234
+
+### Tech stack
+Bootstrap + Node.js
+<hr>
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/48176400/172941923-6111af46-8399-493b-b9ae-f5f7e40cb5bd.png)
+
+
