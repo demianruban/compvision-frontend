@@ -1,5 +1,6 @@
 # Computer vision frontend
 
+[Github pages link](https://demianruban.github.io/compvision-frontend/)
 ### How to run
 ```
 git clone https://github.com/demianruban/compvision-frontend
@@ -10,9 +11,8 @@ npm run dev
 This will start a development server on localhost:1234
 
 ### Technologies used
-- Bootstrap
-- NPM
-- Parcel
+[Bootstrap](getbootstrap.com)
+
 <hr>
 
 ## Screenshot
