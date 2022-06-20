@@ -4,10 +4,10 @@
 ```
 git clone https://github.com/demianruban/compvision-frontend
 cd compvision-frontend
-git switch node
-npm install
-npm run start
+npm run dev
 ```
+
+This will start a development server on localhost:1234
 
 ### Tech stack
 Bootstrap + Node.js
